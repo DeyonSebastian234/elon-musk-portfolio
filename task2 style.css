@@ -1,0 +1,148 @@
+*{
+    margin: 0;
+    padding: 0;
+    font-family: 'Young Serif', serif;
+
+}
+
+nav{
+    display: flex;
+    justify-content: space-evenly;
+    top: 0px;
+    background-color: azure;
+    height: 90px;
+}
+nav ul{
+    display: flex;
+    font-weight: bolder;
+    margin: 40px;
+    
+}
+nav ul li a{
+    text-decoration: none;
+    color: black;
+    padding: 8px 25px;
+    margin-top: 30px;
+    margin-left: 50px;
+}
+
+nav ul li a:hover{
+    background-color: brown;
+    color: blueviolet;
+
+    
+}
+#home{
+    display: flex;
+    flex-direction: column;
+    
+    
+}
+#home::before{
+    content: "";
+    position: absolute;
+    top: 10;
+    right: 0;
+    height: 700px;
+    width: 100%;
+    background-size: cover;
+}
+.text{
+    position: absolute;
+    background-size: cover;
+    height: 600px;
+    top: 30%;
+    right: 10%;
+    color: aqua;
+    font-size: 3rem;
+    text-align: center;
+    
+}
+#about{
+    display: flex;
+    flex-direction: column;
+    padding: 20px;
+    margin-bottom: 50px;
+    background-color: chocolate;
+    height: 500px;
+    margin-top: -30px;
+    
+}
+.headings{
+    color: black;
+    margin: 25px;
+    margin-left: 700px;
+    border-radius: 30px;
+}
+#pic{
+    display: flex;
+}
+#pic img{
+    width: 575px;
+    height: 400px;
+    
+}
+.intro:hover{
+    color: blueviolet;
+    text-shadow: 4px 5px 30px color(srgb rgba(37, 8, 8, 0) green blue);
+}
+.intro{
+    display: flex;
+    flex-direction: column;
+    text-align: justify;
+    padding: 10px;
+
+}
+.intro h1{
+    color: aqua;
+}
+#projects{
+    display: flex;
+    flex-direction: column;
+    background-color: coral;
+    color: cyan;
+    padding: 15px;
+    margin-top: -50px;
+}
+.gallery{
+    display: flex;
+    justify-content: space-around;
+    border: 4px 5px ridge color(srgb red green blue);
+}
+
+
+footer{
+    text-align: center;
+    width: 100%;
+    height: 200px;
+    display: flex;
+    
+
+}
+
+
+
+ footer{
+    background-color: burlywood;
+    width: 100%;
+    display: flex;
+    text-align: center;
+    
+ }
+ .photo{
+    text-align: center;
+ }
+footer ul li {
+    display: inline-block;
+    margin-left: 100px;
+    justify-content: space-around;
+    text-align: center;
+}
+.social{
+    text-align: center;
+
+}
+.headings:hover{
+    color: darkblue;
+
+}
